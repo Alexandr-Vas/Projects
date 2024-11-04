@@ -28,15 +28,32 @@ body{
     padding-inline: 0;
 }
 
+a{
+    color:#2B2B2B;
+}
+
 .header{
     display: flex;
     margin-top: 32px;
     margin-left: 88px;
     gap: 12px;
 }
+
 .ellipse{
     width: 26px;
     height: 26px;
     border-radius: 50%;
     background-color: #D0D0D0;
+}
+
+.nav-bar-list{
+    list-style-type: none;
+    display: flex;
+    column-gap: 40px;
+    margin: 0;
+    margin-left: 1024px;
+}
+
+.nav-bar-link{
+    text-decoration: none;
 }
