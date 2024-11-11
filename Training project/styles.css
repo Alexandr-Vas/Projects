@@ -159,3 +159,30 @@ h2{
     position: relative;
     top: 17px;
 }
+
+.sub-text-s2{
+    display: flex;
+}
+
+.vector{
+    background-color: #285E67;
+    display: inline-block;
+    width: 58px;
+    height: 57px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.leaf1{
+    width: 260px;
+    height: 187.54px;
+    margin-right: 69px;
+}
+
+.leaf2{
+    width: 260px;
+    height: 187.54px;
+}
