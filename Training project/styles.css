@@ -130,3 +130,12 @@ body{
     height: 446px;
     padding-left: 112px;
 }
+
+.main-block-S2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 589px;
+    height: 342.54px;
+    margin: auto;
+    margin-right: 5px;
+}
