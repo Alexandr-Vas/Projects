@@ -186,3 +186,19 @@ h2{
     width: 260px;
     height: 187.54px;
 }
+
+.illustration{
+    position: relative;
+    width: 651px;
+    height: 512px;
+    bottom: 33px;
+    margin: 0;
+}
+
+.illustration-img{
+    position: absolute;
+    width: 291px;
+    height: 294px;
+    top: 177px;
+    left: 191px;
+}
