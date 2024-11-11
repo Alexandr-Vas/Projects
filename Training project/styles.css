@@ -90,3 +90,34 @@ body{
 .text-S1{
     margin: 0;
 }
+
+.images-S1{
+    padding-bottom: 3px;
+}
+
+.button-S1{
+    display: block;
+    width: 251px;
+    height: 56px;
+    padding: 16px 0px;
+    border-radius: 67px;
+    border: 0;
+    background-color: #285E67;
+    color: #FFFFFF; 
+    font-size: 21.33px;
+    font-weight: 600;
+    margin: auto;  
+    margin-bottom: 56px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.image{
+    width: 626px;
+    height: 391px;
+    border-radius: 16px;
+}
