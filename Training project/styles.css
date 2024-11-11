@@ -121,3 +121,12 @@ body{
     height: 391px;
     border-radius: 16px;
 }
+
+.section2{
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    margin-top: 104px;
+    height: 446px;
+    padding-left: 112px;
+}
