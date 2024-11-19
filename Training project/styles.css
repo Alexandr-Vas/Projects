@@ -207,8 +207,7 @@ button{
 
 .images{
     display: flex;
-    justify-content: space-between;
-    margin: 0;
+    column-gap: 48px;
 }
 
 .image{
