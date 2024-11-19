@@ -192,18 +192,10 @@ button{
 }
 
 .title-S1{
-    font-size: 65.34px;
+    font-size: 65px;
     font-weight: 600;
     line-height: 82px;
-    margin-top: 0   ;
-    margin-bottom: 17px;
-}
-.text-S1{
-    margin: 0;
-}
-
-.images-S1{
-    padding-bottom: 3px;
+    padding-bottom: 17px;
 }
 
 .button-S1{
