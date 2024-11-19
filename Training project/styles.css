@@ -131,6 +131,16 @@ h2{
     line-height: 62px;
 }
 
+button{
+    display: block;
+    padding: 16px 80px;
+    border-radius: 67px;
+    border: 0;
+    font-weight: 600;
+    font-size: 21px;
+    white-space: nowrap;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
