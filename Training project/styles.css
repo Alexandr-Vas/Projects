@@ -161,19 +161,16 @@ button{
 }
 
 .logo-text{
-    color: #285E67;
+    color: var(--color-green);
     font-size: 21.33px;
     font-weight: 600;
     line-height: 24px;
 }
 
 .nav-bar-list{
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
     column-gap: 40px;
-    margin-top: 32px;
-    margin-right: 69px;
-    margin-bottom: 0;
 }
 
 .nav-bar-list a{
