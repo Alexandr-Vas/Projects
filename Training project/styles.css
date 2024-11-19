@@ -175,14 +175,15 @@ button{
 
 .nav-bar-list a{
     text-decoration: none;
-    color: black;
+    color: var(--color-dark);
 }
 
 .container{
     max-width: 1300px;
-    max-height: 3524px;
     margin-inline: auto;
-    padding-inline: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 104px;
 }
 
 .header-S1{
