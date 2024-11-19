@@ -223,12 +223,7 @@ button{
 }
 
 .main-block-S2{
-    display: flex;
-    flex-wrap: wrap;
-    width: 589px;
-    height: 342.54px;
-    margin: auto;
-    margin-right: 5px;
+    padding-block: 52px;
 }
 
 .header-S2{
