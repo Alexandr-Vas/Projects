@@ -243,15 +243,10 @@ button{
     max-width: 58px;
 }
 
-.leaf1{
-    width: 260px;
-    height: 187.54px;
-    margin-right: 69px;
-}
-
-.leaf2{
-    width: 260px;
-    height: 187.54px;
+.leaf{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
 .illustration{
