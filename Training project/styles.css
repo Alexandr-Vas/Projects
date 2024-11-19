@@ -187,10 +187,8 @@ button{
 }
 
 .header-S1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 33px;
+    padding-bottom: 33px;
+    text-align: center;
 }
 
 .title-S1{
