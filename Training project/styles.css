@@ -144,7 +144,8 @@ button{
 .header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 142px;
+    padding: 32px 69px 133px 88px;
+    column-gap: 15px;
 }
 
 .logo{
