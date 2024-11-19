@@ -237,15 +237,10 @@ button{
 }
 
 .vector{
-    background-color: #285E67;
-    display: inline-block;
-    width: 58px;
-    height: 57px;
+    background-color: var(--color-green);
     border-radius: 9px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    padding: 14px 16px;
+    max-width: 58px;
 }
 
 .leaf1{
