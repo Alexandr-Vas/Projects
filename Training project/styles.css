@@ -150,8 +150,6 @@ button{
 
 .logo{
     display: flex;
-    margin-top: 32px;
-    margin-left: 88px;
     column-gap: 12px;
 }
 
