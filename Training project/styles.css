@@ -231,20 +231,9 @@ button{
     padding-top: 48px;
 }
 
-h2{
-    font-size: 50.52px;
-    font-weight: 600;
-    line-height: 62px;
-    margin: 0;
-}
-
-.header-S2-text{
-    position: relative;
-    top: 17px;
-}
-
 .sub-text-s2{
     display: flex;
+    column-gap: 69px;
 }
 
 .vector{
