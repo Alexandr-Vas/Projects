@@ -215,12 +215,11 @@ button{
 }
 
 .section2{
-    background-color: #F4F4F4;
+    background-color: var(--color-light-gray);
     display: flex;
     justify-content: center;
-    margin-top: 104px;
-    height: 446px;
-    padding-left: 112px;
+    align-items: center;
+    padding-inline: 112px;
 }
 
 .main-block-S2{
