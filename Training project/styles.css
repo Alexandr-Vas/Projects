@@ -212,6 +212,7 @@ button{
 
 .image{
     border-radius: 16px;
+    overflow: auto;
 }
 
 .section2{
