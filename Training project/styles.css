@@ -131,6 +131,10 @@ h2{
     line-height: 62px;
 }
 
+p{
+    margin: 0;
+}
+
 button{
     display: block;
     padding: 16px 80px;
@@ -253,4 +257,37 @@ button{
 .illustration{
     padding-left: 191px;
     align-self: self-end;
+}
+
+.section3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section3_img{
+  border-radius: 16px;
+  height: 100%;
+}
+
+.section3_main-block{
+  max-width: 624px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  padding-left: 25px;
+}
+
+.section3_article{
+  display: flex;
+  align-items: center;
+  column-gap: 23px;
+}
+
+.section3_ellipse{
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border: #286e67;
+  border-style: 2px solid;
+  border-radius: 50%;
 }
