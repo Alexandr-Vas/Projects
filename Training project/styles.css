@@ -413,3 +413,27 @@ button{
   height: 82px;
   margin-bottom: 6px;
 }
+
+.footer_logo-text{
+  color: var(--color-light);
+}
+
+.footer{
+  background-color: var(--color-green);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 139px;
+  padding-block: 78px;
+  margin-top: 120px;
+}
+
+.footer_icons{
+  display: flex;
+  column-gap: 24px;
+  margin-top: 36px;
+}
+
+.footer a{
+  color: var(--color-light);
+}
