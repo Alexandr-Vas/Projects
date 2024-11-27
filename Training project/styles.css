@@ -129,6 +129,7 @@ h1, h2, h3, h4, h5, h6{
 h2{
     font-size: 50px;
     line-height: 62px;
+    margin: 0;
 }
 
 p{
@@ -286,11 +287,17 @@ button{
 
 .section3_ellipse{
   display: flex;
-  height: 50px;
-  width: 50px;
-  border: #286e67;
-  border-style: 2px solid;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 52px;
+  border: 2px solid #286e67;
   border-radius: 50%;
+}
+
+.section3_vector-img{
+  width: 28px;
+  height: 30px;
 }
 
 .section4{
@@ -328,3 +335,81 @@ button{
   max-width: 58px;
 }
 
+.section5_background-main{
+  background-image: url(images/tyler-lastovich-AVzByhROPbs-unsplash\ 1.jpg);
+  background-size: cover;
+  padding: 99px 326px 228px 326px;
+  border-radius: 12px;
+}
+
+.section5_main{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 650px;
+  padding-block: 12px;
+}
+
+.section5_vector-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #ffffff;
+  border-radius: 9px;
+  width: 92px;
+  height: 82px;
+}
+
+.section5_vector-img{
+  height: 48px;
+  width: 44px;
+}
+
+.section5_article{
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 28px;
+  margin-top: 45px;
+}
+
+.section5_article h2{
+  font-size: 37.9px;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+
+.section5_footer{
+  background-color: #FCE2D7;
+  max-width: 1165px;
+  padding: 119px 66px;
+  margin-inline: auto;
+  margin-top: -192px;
+  border-radius: 12px;
+}
+
+.section5_footer-main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.section5_footer-main p{
+  font-size: 21px;
+}
+
+.section5_footer-main_article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section5_footer_vector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #000000;
+  border-radius: 50%;
+  width: 82px;
+  height: 82px;
+  margin-bottom: 6px;
+}
