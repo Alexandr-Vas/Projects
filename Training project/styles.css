@@ -392,6 +392,12 @@ button{
   border-radius: 12px;
 }
 
+.section5_button{
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--color-light);
+  border: currentColor solid 1px;
+}
+
 .section5_footer-main{
   display: flex;
   justify-content: space-around;
