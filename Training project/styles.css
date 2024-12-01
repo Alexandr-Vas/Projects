@@ -359,7 +359,7 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 2px #ffffff;
+  border: solid 2px var(--color-light);
   border-radius: 9px;
   width: 92px;
   height: 82px;
@@ -372,7 +372,7 @@ button{
 
 .section5_article{
   text-align: center;
-  color: #ffffff;
+  color: var(--color-light);
   margin-bottom: 28px;
   margin-top: 45px;
 }
@@ -418,7 +418,7 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 2px #000000;
+  border: solid 2px var(--color-dark);
   border-radius: 50%;
   width: 82px;
   height: 82px;
