@@ -281,7 +281,6 @@ button{
   display: flex;
   flex-direction: column;
   row-gap: 50px;
-  padding-left: 25px;
 }
 
 .section3_article{
@@ -298,6 +297,7 @@ button{
   width: 52px;
   border: 2px solid #286e67;
   border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .section3_vector-img{
