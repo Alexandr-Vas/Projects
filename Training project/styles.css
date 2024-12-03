@@ -118,7 +118,6 @@ body{
     font-size: 16px;
     line-height: 1.5;
     background-color: var(--color-light);
-    max-width: 1440px;
     margin-inline: auto;
 }
 
@@ -341,18 +340,32 @@ button{
 }
 
 .section5_background-main{
-  background-image: url(images/tyler-lastovich-AVzByhROPbs-unsplash\ 1.jpg);
   background-size: cover;
-  padding: 99px 326px 228px 326px;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 99px;
+  padding-inline: 70px;
+  position: relative;
 }
 
-.section5_main{ 
+.section5_background-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  min-height: 667px;
+}
+
+.section5_main{
+  position: relative; 
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
   max-width: 650px;
   padding-block: 12px;
+  margin-bottom: 37px;
 }
 
 .section5_vector-block{
@@ -383,15 +396,6 @@ button{
   margin-bottom: 12px;
 }
 
-.section5_footer{
-  background-color: #FCE2D7;
-  max-width: 1165px;
-  padding: 119px 66px;
-  margin-inline: auto;
-  margin-top: -192px;
-  border-radius: 12px;
-}
-
 .section5_button{
   background-color: rgba(0, 0, 0, 0);
   color: var(--color-light);
@@ -399,8 +403,14 @@ button{
 }
 
 .section5_footer-main{
+  position: relative;
+  background-color: #FCE2D7;
+  border-radius: 12px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  padding-block: 119px;
+  padding-inline: 66px;
 }
 
 .section5_footer-main p{
