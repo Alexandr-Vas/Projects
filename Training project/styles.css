@@ -145,6 +145,10 @@ button{
     white-space: nowrap;
 }
 
+.cut-down_desktop{
+  display: none;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -354,7 +358,7 @@ button{
 .section5_background-img{
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0;  
   min-height: 667px;
 }
 
@@ -465,6 +469,10 @@ button{
     max-width: 884px;
   }
 
+  .header{
+    margin-bottom: 60px;
+  }
+
   .cut-down{
     display: none;
   }
@@ -516,4 +524,126 @@ button{
     flex-direction: column;
     row-gap: 36px;
   }
+}
+
+@media (max-width: 425px) {
+
+  h2{
+    font-size: 40px;
+  }
+
+  .container{
+    max-width: 360px;
+  }
+
+  .cut-down_mobile{
+    display: none;
+  }
+
+  .burger-menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+  }
+
+  .title-S1{
+    font-size: 38px;
+    line-height: 47px;
+  }
+
+  .images{
+    flex-direction: column;
+    row-gap: 28px;
+  }
+
+  .section2{
+    padding: 0;
+  }
+
+  .sub-text-s2{
+    flex-direction: column;
+    row-gap: 28px;
+    padding-inline: 45px;
+  }
+
+  .section3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+  
+  .section3_main-block{
+    text-align: center;
+    row-gap: 26px;
+  }
+
+  .section3_img{
+    min-height: 578px;
+  }
+
+  .section4{
+    padding: 45px 40px;
+  }
+
+  .section4_articles-block{
+    flex-direction: column;
+  }
+
+  .section5_background-img{
+    min-height: 354px;
+    border-radius: 12px;
+  }
+
+  .section5_background-main{
+    padding-inline: 62px;
+    padding: 0;
+  }
+
+  .section5_main{
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+
+  .section5_article{
+    margin-bottom: 13px;
+    margin-top: 13px;
+    margin-inline: 62px;
+  }
+
+  .section5_article p{
+    display: none;
+  }
+
+  .section5_vector-block{
+    width: 46px;
+    height: 41px;
+  }
+  
+  .section5_vector-img{
+    height: 24px;
+    width: 22px;
+  }
+
+  .section5_article h2{
+    font-size: 21px;
+    margin-bottom: 0;
+  }
+
+  .section5_button{
+    font-size: 16px;
+    padding: 11px 62px;
+  }
+
+  .section5_footer-main{
+    grid-template-columns: repeat(1, 1fr);
+    padding-inline: 0;
+    margin-inline: 31px;
+  }
+
+  .footer_nav-bar-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 36px;
+  }
+
 }
